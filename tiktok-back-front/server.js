@@ -6,6 +6,7 @@ import Videos from "./dbModel.js"
 import cors from "cors"
 //app config
 
+
 const app = express();
 const port = process.env.PORT || 9000  ;
 app.use(express.json())
